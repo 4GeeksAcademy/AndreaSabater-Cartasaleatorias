@@ -6,10 +6,10 @@ const palos = [
   { simbolo: "♠", color: "black" }
 ];
 
-// Lista de valores posibles de cartas
+
 const valores = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
 
-// Función para generar una carta aleatoria
+
 function generarCartaAleatoria() {
   // Elegimos un palo y un valor aleatorio
   const palo = palos[Math.floor(Math.random() * palos.length)];
